@@ -49,7 +49,7 @@ spec:
         value: ["--count","--select=E9,F63,F7,F82","--show-source","--statistics"]
       runAfter:
         - clone
-    - name: Test
+    - name: tests
       workspaces:
         - name: source
           workspace: pipeline-workspace
